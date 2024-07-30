@@ -19,8 +19,8 @@ body {
 
 section.card {
   background: #cbcccb;
-  background: -webkit-linear-gradient(to right, #a0a39f, #004617); 
-  background: linear-gradient(to right, #a0a39f, #004617);
+  background: -webkit-linear-gradient(to right, #1a0a0a, #6b0707); 
+  background: linear-gradient(to right,#1a0a0a, #6b0707);
   border-radius: 24px 24px 24px 48px;
   padding: 48px 48px 48px 308px;
   margin: 84px 0;
@@ -28,7 +28,7 @@ section.card {
   display: flex;
   flex-direction: row;
   align-self: flex-start;  
-  box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+  box-shadow: 5px 0 0 0 rgba(49, 10, 10, 0.3), -5px 0 0 0 rgba(83, 19, 19, 0.3), 0 5px 0 0 rgba(148, 15, 15, 0.3);
 }
 section.card .text-content {
   display: flex;
@@ -55,7 +55,7 @@ section.card .text-content p {
 }
 
 .active{
-  background-color: #004617;
+  background-color: #6b0707;
   color: white;
   padding: 15px;
    border-radius: 24px 24px 24px 48px;
@@ -161,7 +161,7 @@ article {
 }
 
 .nav-links>li>a:hover {
-  color: #08ee55;
+  color: #ee0808;
   transition: all .3s ease-in-out;
 }
 
